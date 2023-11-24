@@ -1,8 +1,9 @@
-.fair {
+#fair {
   height: 300px;
   width: 300px;
   border-radius: 60% 20% 30% 70% / 60% 30% 70% 40%;
   animation: morph 6s ease-in-out infinite;
+  border: 7px solid #388bfd;
 }
 
 @keyframes morph {

@@ -13,52 +13,52 @@ import GIT from '../assets/git.png'
 
 export default function Skills() {
   return (
-    <div className='pl-[200px] pt-[50px]'>
-        <h1 className='text-white font-[Poppins] text-3xl font-[700] flex gap-5 items-center ml-[30px]'><FaCode className='text-[#388bfd]'/>Programming languages i learned through my coding journey</h1>
-        <div className='pr-[200px] pl-[30px] bg-[black] h-[auto] pb-[50px] justify-start mt-[30px] grid pt-[30px] grid-cols-5 gap-y-[30px] grid-rows-2'>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+    <div className='pt-[50px]'>
+        <h1 className='pl-[200px] text-white font-[Poppins] text-3xl font-[700] flex gap-5 items-center tablet:justify-center tablet:pl-0'><FaCode className='text-[#388bfd]'/>Skills I learned through my coding journey:</h1>
+        <div className='pl-[200px] tablet:pl-[200px] tablet:justify-start pr-[200px] bg-[black] h-[auto] pb-[50px] mt-[30px] grid pt-[30px] grid-cols-5 gap-y-[30px] grid-rows-2 desktop:grid-cols-3 tablet:grid-cols-2'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={Python}></img>
                 </div>
                 <p className='text-[15px] font-[Poppins] text-[#388bfd] ml-6'>Data Science</p>
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>Python</h1>
             </div>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={HTML}></img>
                 </div>
                 <p className='text-[15px] font-[Poppins] text-[#388bfd] ml-6'>Web core</p>
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>HTML</h1>
             </div>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[70px] h-[100px]' src={CSS}></img>
                 </div>
                 <p className='text-[15px] font-[Poppins] text-[#388bfd] ml-6'>Styling Tool</p>
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>CSS</h1>
             </div>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={JavaScript}></img>
                 </div>
                 <p className='text-[15px] font-[Poppins] text-[#388bfd] ml-6'>Logic Language</p>
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>JavaScript</h1>
             </div>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={TypeScript}></img>
                 </div>
                 <p className='text-[15px] font-[Poppins] text-[#388bfd] ml-6'>JavaScript with types</p>
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>TypeScript</h1>
             </div>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[72px]' src={TailwindCSS}></img>
                 </div>
                 <p className='text-[15px] font-[Poppins] text-[#388bfd] ml-6'>CSS with less code</p>
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>TailwindCSS</h1>
             </div>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={ReactIcon}></img>
                 </div>
@@ -66,7 +66,7 @@ export default function Skills() {
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>React</h1>
             </div>
 
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={SQL}></img>
                 </div>
@@ -74,14 +74,14 @@ export default function Skills() {
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>MySQL</h1>
             </div>
 
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={NodeJS}></img>
                 </div>
                 <p className='text-[15px] font-[Poppins] text-[#388bfd] ml-6'>Api Development</p>
                 <h1 className='text-white font-[Poppins] font-[800] ml-6 text-xl'>Node.js</h1>
             </div>
-            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px]'>
+            <div className='bg-[#343a40] w-[240px] h-[265px] rounded-[20px] border-[3px] border-[#388bfd]'>
                 <div className='bg-[#6c757d] h-[150px] m-5 rounded-[15px] flex justify-center items-center'>
                     <img className='w-[100px] h-[100px]' src={GIT}></img>
                 </div>
